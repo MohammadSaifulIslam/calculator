@@ -11,7 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(60, 59, 69, 1) 100%);
+    background: rgba(0, 0, 0, 1);
+    /* background: linear-gradient(90deg,rgba(0, 0, 0, 1)  0%, rgba(60, 59, 69, 1) 100%); */
 }
 
 .calculator {
@@ -20,11 +21,12 @@ body {
     padding: 20px;
     border-radius: 16px;
     box-shadow: 0 3px 15px rgba(113, 115, 119, 0.5);
+    text-align: center;
 }
 
 input {
     width: 100%;
-    border: none;
+    border: 1px solid #ffffff;
     padding: 24px;
     margin: 10px;
     background-color: transparent;
@@ -33,6 +35,8 @@ input {
     text-align: right;
     cursor: pointer;
     color: #ffffff;
+    border-radius: 12px;
+    outline: none;
 }
 
 input::placeholder {
