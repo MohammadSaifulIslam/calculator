@@ -2,7 +2,7 @@ let input = document.getElementById('input');
 let buttons = document.querySelectorAll('button');
 
 let string = "";
-console.log(string)
+
 let arr = Array.from(buttons);
 arr.forEach(button => {
     button.addEventListener('click', (e) => {
